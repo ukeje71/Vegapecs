@@ -6,7 +6,7 @@ const Header = () => {
   const toggleNav = () => setNavOpen(!navOpen);
 
   return (
-    <header className="w-full fixed top-0 z-50 bg-white shadow-md border-b border-green-100">
+    <header className="w-full fixed top-0 z-50 bg-white shadow-md border-b border-green-100 h-20 flex justify-center items-center">
       {/* Main Navigation */}
       <div className="flex flex-row justify-between"></div>
       <div className="container mx-auto px-4 py-3 flex justify-between items-center">
@@ -36,8 +36,8 @@ const Header = () => {
           </ul>
         </nav>
         <div className="hidden md:flex space-x-4 ml-6">
-          <button className="px-4 py-2 text-green-600 font-medium hover:bg-green-50 rounded-lg transition-colors">
-            Log In
+          <button className="px-4 py-2 bg-gradient-to-r from-green-500 to-green-700 text-white font-medium rounded-lg hover:shadow-lg transition-all">
+            Order
           </button>
           <button className="px-4 py-2 bg-gradient-to-r from-green-500 to-green-700 text-white font-medium rounded-lg hover:shadow-lg transition-all">
             Get Started
@@ -59,7 +59,7 @@ const Header = () => {
           <ul className="px-4 py-3 space-y-3">
             {["Home", "Solutions", "Marketplace", "Resources", "About"].map(
               (item) => (
-                <li key={`mobile-${item}`}>
+                <li key={`mobile-${item}`} className="border-b border-green-200">
                   <a
                     href="#"
                     className="block py-2 px-3 text-gray-700 hover:bg-green-50 rounded-md font-medium"
@@ -71,7 +71,7 @@ const Header = () => {
             )}
           </ul>
           <div className="px-4 py-3 border-t border-gray-100 space-y-3">
-            <button className="w-full py-2 text-green-600 font-medium hover:bg-green-50 rounded-lg transition-colors">
+            <button className="w-full py-2 bg-gradient-to-r from-green-500 to-green-700 text-white font-medium rounded-lg hover:shadow-lg transition-all">
               Log In
             </button>
             <button className="w-full py-2 bg-gradient-to-r from-green-500 to-green-700 text-white font-medium rounded-lg hover:shadow-lg transition-all">

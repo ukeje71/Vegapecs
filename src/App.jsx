@@ -1,12 +1,12 @@
-import React from 'react'
-import Header from './components/Header'
+import React from "react";
+import Landing from "./Pages/Landing";
 
 const App = () => {
   return (
     <div>
-      <Header/>
+      <Landing/>
     </div>
-  )
-}
+  );
+};
 
-export default App
+export default App;
