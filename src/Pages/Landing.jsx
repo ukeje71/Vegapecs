@@ -4,8 +4,11 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, Pagination } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/pagination";
-import Products from "../components/Products";
+// import Products from "../components/Products";
 import HowItWorks from "../components/Howitworks";
+import WhatWeOffer from "../components/Whatweoffer";
+import WhoWeServe from "../components/WhoWeServe";
+import AboutUs from "../components/ABoutUs";
 
 const Landing = () => {
   const slides = [
@@ -80,8 +83,10 @@ const Landing = () => {
           ))}
         </Swiper>
       </div>
-      {/* <Products /> */}
+      <WhatWeOffer/>
       <HowItWorks/>
+      <WhoWeServe/>
+      <AboutUs/>
     </div>
   );
 };

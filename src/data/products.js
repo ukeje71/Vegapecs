@@ -23,7 +23,7 @@
         description: "50kg bags with 12-month shelf life extension",
         price: "₦8,500/bag",
         availability: "In Stock",
-        image: "https://images.unsplash.com/photo-1605000797499-95e51f0dc716?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80",
+        image: "https://images.unsplash.com/photo-1633945274309-2c16c9682a8c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80",
         whatsappMessage: "Need Moisture Control Bags"
     },
     {
@@ -68,7 +68,7 @@
         description: "Reusable trays for healthy seedling growth",
         price: "₦2,500/tray",
         availability: "In Stock",
-        image: "https://images.unsplash.com/photo-1585011655826-7ea2a1133757?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80",
+        image: "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80",
         whatsappMessage: "Order Seedling Trays"
     },
     {
