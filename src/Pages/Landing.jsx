@@ -4,6 +4,8 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, Pagination } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/pagination";
+import Products from "../components/Products";
+import HowItWorks from "../components/Howitworks";
 
 const Landing = () => {
   const slides = [
@@ -26,8 +28,7 @@ const Landing = () => {
     },
     {
       id: 3,
-      bgImage:
-        'bg-[url("assets/Farmland.jpeg")]',
+      bgImage: 'bg-[url("assets/Farmland.jpeg")]',
       text: "AI-Powered Crop Monitoring",
       subtext:
         "Real-time field analytics to maximize your harvest potential with 30% less water usage.",
@@ -35,8 +36,7 @@ const Landing = () => {
     },
     {
       id: 4,
-      bgImage:
-        'bg-[url("assets/Harvest.jpeg")]',
+      bgImage: 'bg-[url("assets/Harvest.jpeg")]',
       text: "Eco-Friendly Packaging Solutions",
       subtext:
         "Biodegradable materials that keep produce fresh 2x longer while reducing environmental impact.",
@@ -66,7 +66,7 @@ const Landing = () => {
                     </h1>
                     <p className="text-xl md:text-2xl mb-8">{slide.subtext}</p>
                     <a
-                      href="https://wa.me/yournumber"
+                      href="https://wa.me/2348182443958"
                       target="_blank"
                       rel="noreferrer"
                       className="inline-block bg-green-600 hover:bg-green-700 text-white font-bold py-3 px-8 rounded-lg text-lg transition-colors"
@@ -80,6 +80,8 @@ const Landing = () => {
           ))}
         </Swiper>
       </div>
+      {/* <Products /> */}
+      <HowItWorks/>
     </div>
   );
 };

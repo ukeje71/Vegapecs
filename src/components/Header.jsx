@@ -36,9 +36,15 @@ const Header = () => {
           </ul>
         </nav>
         <div className="hidden md:flex space-x-4 ml-6">
-          <button className="px-4 py-2 bg-gradient-to-r from-green-500 to-green-700 text-white font-medium rounded-lg hover:shadow-lg transition-all">
-            Order
-          </button>
+          <a
+            href="https://wa.me/2348182443958"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <button className="px-4 py-2 bg-gradient-to-r from-green-500 to-green-700 text-white font-medium rounded-lg hover:shadow-lg transition-all">
+              Order
+            </button>
+          </a>
           <button className="px-4 py-2 bg-gradient-to-r from-green-500 to-green-700 text-white font-medium rounded-lg hover:shadow-lg transition-all">
             Get Started
           </button>
@@ -59,7 +65,10 @@ const Header = () => {
           <ul className="px-4 py-3 space-y-3">
             {["Home", "Solutions", "Marketplace", "Resources", "About"].map(
               (item) => (
-                <li key={`mobile-${item}`} className="border-b border-green-200">
+                <li
+                  key={`mobile-${item}`}
+                  className="border-b border-green-200"
+                >
                   <a
                     href="#"
                     className="block py-2 px-3 text-gray-700 hover:bg-green-50 rounded-md font-medium"
