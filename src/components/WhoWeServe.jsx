@@ -74,7 +74,7 @@ const WhoWeServe = () => {
         {/* CTA */}
         <div className="text-center">
           <a
-            href="https://wa.me/234YOURNUMBER"
+            href="https://wa.me/2348182443958"
             className="inline-flex items-center bg-green-600 hover:bg-green-700 text-white px-6 py-3 rounded-lg transition-colors"
           >
             <span>Get Custom Solutions</span>

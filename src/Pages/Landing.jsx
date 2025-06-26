@@ -4,7 +4,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, Pagination } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/pagination";
-// import Products from "../components/Products";
+import Footer from "../components/Footer";
 import HowItWorks from "../components/Howitworks";
 import WhatWeOffer from "../components/Whatweoffer";
 import WhoWeServe from "../components/WhoWeServe";
@@ -87,6 +87,7 @@ const Landing = () => {
       <HowItWorks/>
       <WhoWeServe/>
       <AboutUs/>
+      <Footer/>
     </div>
   );
 };

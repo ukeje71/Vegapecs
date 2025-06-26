@@ -119,7 +119,9 @@ const WhatWeOffer = () => {
           </div>
         </div>
         <div className="mt-10 mb-10">
-          <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Storage Gadgets</h2>
+          <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
+            Storage Gadgets
+          </h2>
           <Products />
         </div>
 
@@ -134,7 +136,7 @@ const WhatWeOffer = () => {
             budget.
           </p>
           <a
-            href="https://wa.me/234YOURNUMBER"
+            href="https://wa.me/2348182443958"
             className="inline-block bg-white text-green-700 hover:bg-gray-100 font-bold px-8 py-3 rounded-lg transition-colors"
           >
             Chat With Our Experts

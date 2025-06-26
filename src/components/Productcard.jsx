@@ -44,8 +44,8 @@ const ProductCard = ({ product }) => {
             rel="noopener noreferrer"
             className="flex items-center bg-green-600 hover:bg-green-700 text-white px-4 py-2 rounded-lg transition-colors"
           >
-            <ShoppingCart className="mr-2 h-4 w-4" />
-            Order Now
+            <ShoppingCart className="mr-2 h-4 w-4 " />
+           <p className="text-sm md:text-xl">Order Now</p> 
           </a>
         </div>
       </div>

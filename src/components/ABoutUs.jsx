@@ -1,7 +1,7 @@
-import { useEffect, useState, useRef } from 'react';
-import { Leaf, Shield, Globe, Award } from 'lucide-react';
+import { useEffect, useState, useRef } from "react";
+import { Leaf, Shield, Globe, Award } from "lucide-react";
 
-const Counter = ({ target, suffix = '', duration = 2 }) => {
+const Counter = ({ target, suffix = "", duration = 2 }) => {
   const [count, setCount] = useState(0);
   const [isVisible, setIsVisible] = useState(false);
   const ref = useRef(null);
@@ -48,39 +48,45 @@ const Counter = ({ target, suffix = '', duration = 2 }) => {
   }, [isVisible, target, duration]);
 
   return (
-    <span 
+    <span
       ref={ref}
-      className={`transition-opacity duration-500 ${isVisible ? 'opacity-100' : 'opacity-0'}`}
+      className={`transition-opacity duration-500 ${
+        isVisible ? "opacity-100" : "opacity-0"
+      }`}
     >
-      {count.toLocaleString()}{suffix}
+      {count.toLocaleString()}
+      {suffix}
     </span>
   );
 };
 
 const AboutUs = () => {
   const stats = [
-    { id: 1, target: 500, suffix: '+', label: 'Farms Empowered' },
-    { id: 2, target: 80, suffix: '%', label: 'Reduced Post-Harvest Loss' },
-    { id: 3, target: 36, suffix: '', label: 'States Served' },
-    { id: 4, target: 5, suffix: 'M+', label: 'Kilos Preserved' }
+    { id: 1, target: 500, suffix: "+", label: "Farms Empowered" },
+    { id: 2, target: 80, suffix: "%", label: "Reduced Post-Harvest Loss" },
+    { id: 3, target: 36, suffix: "", label: "States Served" },
+    { id: 4, target: 5, suffix: "M+", label: "Kilos Preserved" },
   ];
 
   const values = [
     {
       icon: <Leaf className="h-8 w-8" />,
       title: "Farm-First Philosophy",
-      description: "We design solutions that work in real African farming conditions"
+      description:
+        "We design solutions that work in real African farming conditions",
     },
     {
       icon: <Shield className="h-8 w-8" />,
       title: "Preservation Experts",
-      description: "ISO-certified storage technologies proven to extend shelf life"
+      description:
+        "ISO-certified storage technologies proven to extend shelf life",
     },
     {
       icon: <Globe className="h-8 w-8" />,
       title: "Market Access",
-      description: "We connect farmers to premium buyers through proper packaging"
-    }
+      description:
+        "We connect farmers to premium buyers through proper packaging",
+    },
   ];
 
   const StatCard = ({ stat }) => {
@@ -110,10 +116,10 @@ const AboutUs = () => {
     }, []);
 
     return (
-      <div 
+      <div
         ref={ref}
         className={`bg-green-50 rounded-lg p-6 text-center transition-all duration-500 ease-out ${
-          isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-5'
+          isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-5"
         }`}
       >
         <p className="text-3xl font-bold text-green-600 mb-2">
@@ -136,7 +142,7 @@ const AboutUs = () => {
             observer.unobserve(entry.target);
           }
         },
-        { threshold: 0.1, rootMargin: '0px 0px -50px 0px' }
+        { threshold: 0.1, rootMargin: "0px 0px -50px 0px" }
       );
 
       if (ref.current) {
@@ -154,7 +160,7 @@ const AboutUs = () => {
       <div
         ref={ref}
         className={`bg-white p-8 rounded-xl shadow-sm border border-gray-100 hover:shadow-md transition-all duration-500 ease-out ${
-          isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-5'
+          isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-5"
         }`}
         style={{ transitionDelay: `${index * 100}ms` }}
       >
@@ -174,8 +180,13 @@ const AboutUs = () => {
             Solving Africa's Post-Harvest Challenge
           </h1>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
-            We started with one question: <span className="text-green-600 font-medium">Why grow food and still go hungry?</span><br />
-            The answer led us to build smarter storage solutions for Nigerian agriculture.
+            We started with one question:{" "}
+            <span className="text-green-600 font-medium">
+              Why grow food and still go hungry?
+            </span>
+            <br />
+            The answer led us to build smarter storage solutions for Nigerian
+            agriculture.
           </p>
         </div>
 
@@ -190,18 +201,34 @@ const AboutUs = () => {
               From Problem to Solution
             </h2>
             <p className="text-lg text-gray-600 mb-6">
-              In 2020, our founders witnessed 40% of a maize harvest spoil before reaching market - not from poor farming, but from inadequate storage. This preventable loss became our mission.
+              In 2020, our founders witnessed 40% of a maize harvest spoil
+              before reaching market - not from poor farming, but from
+              inadequate storage. This preventable loss became our mission.
             </p>
             <p className="text-lg text-gray-600 mb-8">
-              Today, we combine <span className="font-semibold">German engineering</span> with <span className="font-semibold">local expertise</span> to deliver affordable preservation technologies that work for African food businesses.
+              Today, we combine{" "}
+              <span className="font-semibold">German engineering</span> with{" "}
+              <span className="font-semibold">local expertise</span> to deliver
+              affordable preservation technologies that work for African food
+              businesses.
             </p>
             <a
               href="#"
               className="inline-flex items-center text-green-600 font-medium hover:text-green-800 transition-colors duration-200"
             >
               Meet Our Team
-              <svg className="ml-2 w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
+              <svg
+                className="ml-2 w-4 h-4"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth={2}
+                  d="M14 5l7 7m0 0l-7 7m7-7H3"
+                />
               </svg>
             </a>
           </div>
@@ -240,9 +267,12 @@ const AboutUs = () => {
         <div className="bg-green-600 rounded-xl p-12 text-center text-white">
           <div className="max-w-2xl mx-auto">
             <Award className="h-10 w-10 mx-auto mb-4" />
-            <h2 className="text-2xl font-bold mb-4">Ready to Transform Your Harvest?</h2>
+            <h2 className="text-2xl font-bold mb-4">
+              Ready to Transform Your Harvest?
+            </h2>
             <p className="text-lg mb-6">
-              Join <Counter target={500} suffix="+" duration={1.5} /> farms and food businesses preserving more and wasting less
+              Join <Counter target={500} suffix="+" duration={1.5} /> farms and
+              food businesses preserving more and wasting less
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
@@ -252,7 +282,7 @@ const AboutUs = () => {
                 View Product Catalog
               </a>
               <a
-                href="https://wa.me/234YOURNUMBER"
+                href="https://wa.me/2348182443958"
                 className="bg-green-700 hover:bg-green-800 font-bold px-6 py-3 rounded-lg transition-all duration-200 hover:scale-105 active:scale-95"
               >
                 Consult Our Experts
