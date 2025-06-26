@@ -1,40 +1,39 @@
     export const products = [
-    {
-        id: 1,
-        name: "Smart Grain Silos",
-        description: "Automated temperature-controlled storage with 20-ton capacity",
-        price: "₦450,000",
-        availability: "In Stock",
-        image: "https://images.unsplash.com/photo-1633945274309-2c16c9682a8c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80",
-        whatsappMessage: "I want to order Smart Grain Silos"
-    },
+{
+    id: 1,
+    name: "Retail Produce Boxes",
+    description: "Brandable cartons with window display panels for farm-fresh product presentation at markets",
+    price: "₦1,950/box",
+    availability: "In Stock",
+    image: "/src/assets/Carton.jpg",
+    whatsappMessage: "Need branded retail boxes for my vegetable harvest"
+},
     {
         id: 2,
         name: "Vacuum Sealers",
         description: "Commercial-grade food preservation systems",
         price: "₦120,000",
         availability: "Limited Stock",
-        image: "https://images.unsplash.com/photo-1605001011156-cbf0b0f67a51?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80",
+        image:"src/assets/Vaccum-sealers.jpg",
         whatsappMessage: "Interested in Vacuum Sealers"
     },
     {
         id: 3,
-        name: "Moisture Control Bags",
+        name: "Storage Cans",
         description: "50kg bags with 12-month shelf life extension",
         price: "₦8,500/bag",
         availability: "In Stock",
-        image: "https://images.unsplash.com/photo-1633945274309-2c16c9682a8c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80",
-        whatsappMessage: "Need Moisture Control Bags"
+        image: "/src/assets/Bottledstuffs.jpg",
+        whatsappMessage: "Need Cans"
     },
-    {
-        id: 4,
-        name: "Farm Packaging Kits",
-        description: "Complete harvest-to-market packaging solution",
-        price: "₦75,000/kit",
-        availability: "Pre-order",
-        image: "https://images.unsplash.com/photo-1601972599720-36938d4ecd31?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80",
-        whatsappMessage: "About Farm Packaging Kits"
-    },
+{
+    id: 4,
+    name: "PET Bottle Sets (1L/5L)",
+    description: "Clear food-grade bottles with tamper-evident caps for oils, juices, and farm beverages. Retail-ready packaging.",
+    price: "₦650/bottle",
+    image: "/src/assets/Gallons.jpg",
+    whatsappMessage: "Interested in 5L PET bottles for zobo packaging"
+},
     {
         id: 5,
         name: "Solar Dryers",
@@ -50,7 +49,7 @@
         description: "Digital meters for accurate grain moisture measurement",
         price: "₦35,000",
         availability: "In Stock",
-        image: "https://images.unsplash.com/photo-1551269901-5c5e14c25df7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80",
+        image: "/src/assets/Hermetic-Bags.jpg",
         whatsappMessage: "Order Grain Moisture Meter"
     },
     {
@@ -59,7 +58,7 @@
         description: "Airtight bags for pest-free grain storage",
         price: "₦9,000/bag",
         availability: "Limited Stock",
-        image: "https://images.unsplash.com/photo-1605001011156-cbf0b0f67a51?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80",
+        image: "/src/assets/Hermetic-Bags.jpg",
         whatsappMessage: "Need Hermetic Storage Bags"
     },
     {
@@ -68,7 +67,7 @@
         description: "Reusable trays for healthy seedling growth",
         price: "₦2,500/tray",
         availability: "In Stock",
-        image: "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80",
+        image: "/src/assets/Seedings-Tray.jpg",
         whatsappMessage: "Order Seedling Trays"
     },
     {
@@ -77,7 +76,7 @@
         description: "Eco-friendly bags for fresh produce packaging",
         price: "₦1,200/pack",
         availability: "In Stock",
-        image: "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80",
+        image: "/src/assets/Compostable-Bags.jpg",
         whatsappMessage: "Interested in Compostable Produce Bags"
     }
     ];
