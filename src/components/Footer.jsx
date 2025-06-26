@@ -38,7 +38,7 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-10 mb-12">
           
           {/* Company Info */}
-          <div className="space-y-4">
+          <div className="space-y-4 text-center">
             <div className="flex items-center space-x-2">
               <Leaf className="text-green-400 w-8 h-8" />
               <span className="text-2xl font-bold bg-gradient-to-r from-green-400 to-green-300 bg-clip-text text-transparent">
@@ -48,7 +48,7 @@ const Footer = () => {
             <p className="text-green-100">
               Empowering African farmers with innovative storage solutions since 2020.
             </p>
-            <div className="flex space-x-4 pt-2">
+            <div className="flex space-x-4 pt-2 items-center justify-center ">
               {[Facebook, Twitter, Instagram, Linkedin].map((Icon, index) => (
                 <a 
                   key={index} 
@@ -63,7 +63,7 @@ const Footer = () => {
           </div>
 
           {/* Quick Links */}
-          <div>
+          <div className="text-center">
             <h3 className="text-lg font-semibold mb-4 text-green-300">Quick Links</h3>
             <ul className="space-y-2">
               {['Products', 'Solutions', 'Pricing', 'Testimonials', 'Blog'].map((item) => (
@@ -77,10 +77,10 @@ const Footer = () => {
           </div>
 
           {/* Contact Information */}
-          <div>
+          <div >
             <h3 className="text-lg font-semibold mb-4 text-green-300">Contact Us</h3>
-            <ul className="space-y-3">
-              <li className="flex items-start">
+            <ul className="space-y-3 text-center">
+              <li className="flex md:items-start text-center">
                 <Phone className="h-5 w-5 mt-0.5 mr-3 text-green-300" />
                 <div>
                   <p className="text-green-100">+234 818 244 3958</p>
@@ -104,7 +104,7 @@ const Footer = () => {
           </div>
 
           {/* Newsletter Subscription */}
-          <div>
+          <div className="text-center">
             <h3 className="text-lg font-semibold mb-4 text-green-300">Newsletter</h3>
             {isSubscribed ? (
               <div className="bg-green-700/50 p-4 rounded-lg">
