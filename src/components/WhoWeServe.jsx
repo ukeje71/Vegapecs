@@ -5,32 +5,27 @@ const WhoWeServe = () => {
     {
       icon: <Users className="h-6 w-6" />,
       title: "Smallholder Farmers",
-      description: "Affordable storage for 1-10 acre farms",
-      benefits: ["Moisture bags", "Solar dryers", "Small silos"]
+      benefits: ["Reduce post-harvest losses with proper storage bags", "Store produce safely until market day."]
     },
     {
       icon: <Factory className="h-6 w-6" />,
       title: "Food Processors",
-      description: "Commercial-grade preservation",
-      benefits: ["Vacuum sealers", "Food-grade packaging", "Bulk containers"]
+      benefits: ["Keep products fresh, safe, and market-ready with minimal spoilage", "Package products professionally"]
     },
     {
       icon: <Globe className="h-6 w-6" />,
       title: "Mini Exporters",
-      description: "Export-compliant solutions",
-      benefits: ["Hermetic bags", "Certified packaging", "Document support"]
+      benefits: ["Access export-grade packaging materials in small or bulk quantities", "meet international standards with sealed, clean, and labeled packaging."]
     },
     {
       icon: <ShoppingBag className="h-6 w-6" />,
       title: "Food Vendors & Resellers",
-      description: "Retail-ready packaging",
-      benefits: ["Ziplock pouches", "Shrink wraps", "Branded labels"]
+      benefits: ["Buy packaging in small units or starter kits to reduce costs", "Improve product appeal and shelf life to attract more customers"]
     },
     {
       icon: <Users2 className="h-6 w-6" />,
       title: "Agro Cooperatives",
-      description: "Bulk solutions for groups",
-      benefits: ["20-ton silos", "Group discounts", "Shared equipment"]
+      benefits: ["Bulk-order affordable packaging tools for members", "Group discounts", "Shared equipment"]
     }
   ];
 

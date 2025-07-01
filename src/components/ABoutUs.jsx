@@ -71,21 +71,21 @@ const AboutUs = () => {
   const values = [
     {
       icon: <Leaf className="h-8 w-8" />,
-      title: "Farm-First Philosophy",
+      title: "Affordable, Food-safe packaging",
       description:
-        "We design solutions that work in real African farming conditions",
+        "High-quality, durable materials at prices that work for small businesses. No compromise on safety or standards. ",
     },
     {
       icon: <Shield className="h-8 w-8" />,
-      title: "Preservation Experts",
+      title: "Nationwide delivery & Easy ordering",
       description:
-        "ISO-certified storage technologies proven to extend shelf life",
+        "Order directly via whatsapp, get quick responses, and enjoy fast delivery.",
     },
     {
       icon: <Globe className="h-8 w-8" />,
-      title: "Market Access",
+      title: "We understand local agro needs",
       description:
-        "We connect farmers to premium buyers through proper packaging",
+        "We offer packaging that truly fits Nigerian food products and storage challenges.",
     },
   ];
 
@@ -186,7 +186,7 @@ const AboutUs = () => {
             </span>
             <br />
             The answer led us to build smarter storage solutions for Nigerian
-            agriculture.
+            food system.
           </p>
         </div>
 
@@ -201,16 +201,14 @@ const AboutUs = () => {
               From Problem to Solution
             </h2>
             <p className="text-lg text-gray-600 mb-6">
-              In 2020, our founders witnessed 40% of a maize harvest spoil
+              In 2023, our founders witnessed 40% of a maize harvest spoil
               before reaching market - not from poor farming, but from
-              inadequate storage. This preventable loss became our mission.
+              inadequate storage and poor access to storage and packaging solutions. This preventable loss became our mission.
             </p>
             <p className="text-lg text-gray-600 mb-8">
               Today, we combine{" "}
-              <span className="font-semibold">German engineering</span> with{" "}
-              <span className="font-semibold">local expertise</span> to deliver
-              affordable preservation technologies that work for African food
-              businesses.
+              <span className="font-semibold">practical tools</span> with{" "}
+              <span className="font-semibold">deep local knowledge</span> to empower farmers, processors, and food businesses - Starting small, building smart.
             </p>
             <a
               href="#"

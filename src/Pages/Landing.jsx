@@ -25,20 +25,12 @@ const Landing = () => {
       id: 2,
       bgImage:
         'bg-[url("https://images.unsplash.com/photo-1500382017468-9049fed747ef?q=80&w=2070&auto=format&fit=crop")]',
-      text: "Precision Farming Solutions",
-      subtext: "Optimize your yields with our smart agricultural technologies.",
-      buttonText: "Get a Demo",
+      text: "Affordable and quality storage and packaging tools.",
+      subtext: "From farm to processing to export. We help you protect your food and profits.",
+      buttonText: "View Products",
     },
     {
       id: 3,
-      bgImage: 'bg-[url("assets/Farmland.jpeg")]',
-      text: "AI-Powered Crop Monitoring",
-      subtext:
-        "Real-time field analytics to maximize your harvest potential with 30% less water usage.",
-      buttonText: "Request Demo",
-    },
-    {
-      id: 4,
       bgImage: 'bg-[url("assets/Harvest.jpeg")]',
       text: "Eco-Friendly Packaging Solutions",
       subtext:
